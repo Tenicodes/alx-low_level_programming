@@ -1,24 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - entry point
+ * main - print all hexadecimal numbers
  *
- * Return: Always 0 (success/correct)
+ * Return: Always 0 (success)
+ *
  */
+
 int main(void)
-
 {
-char base_16;
+	int n;
+	char a;
 
-	for (base_16 = 48; base_16 <= 57; base_16++)
+	for (n = 48; n <= 57; n++)
 	{
-	putchar(base_16);
+		putchar(n);
 	}
+	for (a = 97; a <= 102; a++)
+	{
+		putchar(a);
+	}
+	putchar('\n');
 
-	for (base_16 = 97; base_16 <= 102; base_16++)
-	{
-	putchar(base_16);
-	}
-	putchar ('\n');
 	return (0);
-
-	}	
+}
