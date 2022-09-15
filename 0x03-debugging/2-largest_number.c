@@ -1,3 +1,4 @@
+carrie@ubuntu:/debugging$ cat 2-largest_number.c
 #include "main.h"
 
 /**
@@ -27,3 +28,4 @@ int largest_number(int a, int b, int c)
 
 	return (largest);
 }
+carrie@ubuntu:/debugging$
