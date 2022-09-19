@@ -30,7 +30,7 @@ void print_triangle(int size)
 			}
 
 		d--;
-	_putchar (35);
+	_putchar ('\n');
 
 
 		}
