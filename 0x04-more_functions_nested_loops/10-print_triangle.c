@@ -9,6 +9,7 @@ void print_triangle(int size)
 
 {
 
+
 	int i;
 	int z;
 	int d;
@@ -30,6 +31,7 @@ void print_triangle(int size)
 			}
 
 		d--;
+
 	_putchar ('\n');
 
 
