@@ -13,12 +13,12 @@ void more_numbers(void)
 	int result;
 
 	i = 0;
-	rresult = 0;
+	result = 0;
 	while (i < 10)
 	{
 		while (result <= 14)
 		{
-			if (result <= 10)
+			if (result < 10)
 			{
 				second_number = result;
 			}
@@ -27,7 +27,7 @@ void more_numbers(void)
 			{
 				first_number = result / 10;
 				second_number = result % 10;
-				_putchar (first_number + '10');
+				_putchar (first_number + '0');
 			}
 
 			_putchar (second_number + '0');
