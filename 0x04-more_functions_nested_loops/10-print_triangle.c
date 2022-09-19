@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - prints triangle
- * @siz: print size
+ * @size: print size
  * Return: Always 0.
  */
 
@@ -29,11 +29,10 @@ void print_triangle(int size)
 				_putchar (35);
 			}
 
-			d--;
+		d--;
+	_putchar (35);
 
-			_putchar ('\n');
-		
-		
+
 		}
 
 	}
