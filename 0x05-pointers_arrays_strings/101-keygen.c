@@ -4,7 +4,8 @@
 #include <stdio.h>
 
 /**
- * main: program that generates random valid passwords
+ * Description: generation of random valid passwords
+ * main - program that generates random valid passwords
  * for the program 101-crackme
  * Return: 0.
  */
@@ -13,9 +14,7 @@ int main(void)
 	int num;
 
 	srand(time(0));
-
 	num = rand();
-
 	printf("%i\n", num);
 	return (0);
 }
