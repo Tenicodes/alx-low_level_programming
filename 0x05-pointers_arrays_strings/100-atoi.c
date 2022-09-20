@@ -34,7 +34,7 @@ int _atoi(char *s)
 			if (s[i + 1] == ' ')
 				break;
 		}
-		else (s[i] == '-')
+		else (s[i] = '-');
 		{
 			sign *= -1;
 		}
