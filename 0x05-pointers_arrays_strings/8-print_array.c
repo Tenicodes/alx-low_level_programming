@@ -6,7 +6,6 @@
  * @n: return value n
  * Return: void which meansthe answer is correct
  */
-
 void print_array(int *a, int n)
 
 {
