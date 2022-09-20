@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_numerical - check it it is a digit 
+ * is_numerical - check if it is a digit
  * @n: Number
  * Return: If it is a number, return 1, else return 0.
  */
@@ -34,14 +34,14 @@ int _atoi(char *s)
 			if (s[i + 1] == ' ')
 				break;
 		}
-		else of (s[i] == '-')
+		else if (s[i] == '-');
 		{
 			sign *= -1;
 		}
 
 	}
 
-	return (number *sign);
+	return (number * sign);
 
 
 }
