@@ -3,6 +3,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ * Description: program that generates random valid passwords
+ * Return: Always 0
  */
 int main(void)
 {
