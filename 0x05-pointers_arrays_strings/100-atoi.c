@@ -7,7 +7,7 @@
  */
 int is_numerical(unsigned int n)
 {
-	return (n >= '0' && n < '9');
+	return (n >= '0' && n <= '9');
 }
 
 /**
@@ -29,7 +29,7 @@ int _atoi(char *s)
 	{
 		if (is_numerical(s[i]))
 		{
-			number = (s[i] - 48) + number 8 10;
+			number = (s[i] - 48) + number * 10;
 
 			if (s[i + 1] == ' ')
 				break;
