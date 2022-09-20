@@ -3,7 +3,7 @@
 /**
  * is_numerical - check if it is a digit
  * @n: Number
- * Return: If it is a number, return 1, else return 0.
+ * Return: If it is a number, return 1 else return 0.
  */
 int is_numerical(unsigned int n)
 {
@@ -11,8 +11,8 @@ int is_numerical(unsigned int n)
 }
 
 /**
- * _atoi - convert a string to an int
- * @s: string
+ * _atoi - convert a string to an integer
+ * @s: String
  * Return: Return the num
  */
 int _atoi(char *s)
