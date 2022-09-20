@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * puts_half - prints every other character of a string, starting with the first character
+ * puts_half - prints every other character of a string
+ * starting with the first character
  * @str: A pointer to an integer that  will be reset
  *
  * Return: void which means our answer is correct
