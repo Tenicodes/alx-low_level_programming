@@ -3,20 +3,24 @@
 #include <stdio.h>
 
 /**
- * main - prints the multiplication of two integers
- * @argc: argument count
- * @argv: argument vector
- * Return: 0 if true, 1 if false
+ * main - prints the multiplication of two integer followed by a new line
+ * @argc: number of arguments passed
+ * @argv: array of size argc containing arguments passed
+ * Return: 0 on succes, 1 on error.
 */
 
 int main(int argc, char *argv[])
 {
-	int a, b;
+	int count, product;
+
+	product = 1
 	if (argc == 3)
 	{
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
-		printf("%d\n", a * b);
+		for (count = 1; count < argc; count++)
+		{
+			product *=atoi(argv[count]);
+		}
+		printf("%d\n", product);
 	}
 	else
 	{
