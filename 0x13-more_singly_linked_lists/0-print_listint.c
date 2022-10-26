@@ -1,18 +1,20 @@
 #include "lists.h"
 
 /**
-  * print_listint - fills memory with a constant byte
-  * @h: is the owner of the dog
-  * Return: a number
-  */
+ * print_listint - prints all the elements of a list.
+ * @h: head of a list.
+ *
+ * Return: numbers of nodes.
+ */
 size_t print_listint(const listint_t *h)
 {
-	size_t i;
+	size_t nnodes = 0;
 
-	for (i = 0; h != NULL; i++)
+	while (h != NULL)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
+		nnodes++;
 	}
-	return (i);
+	return (nnodes);
 }
